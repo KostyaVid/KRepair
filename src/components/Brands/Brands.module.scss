@@ -1,0 +1,41 @@
+.brands {
+  background-color: #fff;
+}
+
+.wrap {
+  padding-top: 12rem;
+  padding-bottom: 8.6rem;
+}
+
+.swiperBrand {
+  margin-top: 8rem;
+  --swiper-theme-color: #000;
+  padding-bottom: calc(5rem + 10px);
+}
+
+.brandWrap {
+  border: 2px #efefef solid;
+  border-radius: 2rem;
+  height: 10.7rem;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: 768px) {
+    height: 9rem;
+  }
+  @media (max-width: 576px) {
+    height: 5.8rem;
+    border-radius: 0.5rem;
+  }
+}
+
+.img {
+  height: 4.2rem;
+  @media (max-width: 768px) {
+    height: 3.5rem;
+  }
+  @media (max-width: 576px) {
+    height: 2rem;
+  }
+}

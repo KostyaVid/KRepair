@@ -1,0 +1,42 @@
+.subFooter {
+  background-color: #000;
+  padding-top: 10rem;
+  padding-bottom: 9rem;
+  @media (max-width: 768px) {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+  }
+}
+.imgSubLogo {
+  width: 10.5rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 2.7rem;
+  }
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3rem;
+  row-gap: 2rem;
+  color: #d9d9d9;
+  li a {
+    font-size: 1.6rem;
+    @media (max-width: 768px) {
+      font-size: 1.4rem;
+    }
+    @media (max-width: 576px) {
+      font-size: 1.2rem;
+    }
+  }
+  @media (max-width: 576px) {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.4rem;
+  }
+}

@@ -1,0 +1,68 @@
+.serviceComp {
+  background-color: #525252;
+}
+
+.wrap {
+  padding-bottom: 12rem;
+  @media (max-width: 768px) {
+    padding-bottom: 10rem;
+  }
+  @media (max-width: 576px) {
+    padding-top: 3.5rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.address {
+  color: #f7f5f5;
+  @media (max-width: 576px) {
+    color: #a5a4a4;
+  }
+}
+
+.titleWrap {
+  margin-top: 10rem;
+  display: flex;
+  color: #f7f5f5;
+  @media (max-width: 768px) {
+    margin-top: 8rem;
+    justify-content: space-between;
+  }
+  @media (max-width: 576px) {
+    margin-top: 6rem;
+    flex-direction: column;
+  }
+}
+
+.title {
+  color: #f7f5f5;
+  flex-shrink: 0;
+}
+
+.subTitle {
+  width: 51rem;
+  margin-left: 10rem;
+  @media (max-width: 768px) {
+    width: 48%;
+    margin-left: 0;
+  }
+  @media (max-width: 576px) {
+    width: 100%;
+    margin-top: 2.5rem;
+  }
+}
+
+.cards {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  @media (max-width: 768px) {
+    margin-top: 6rem;
+    gap: 4rem;
+  }
+  @media (max-width: 576px) {
+    margin-top: 3.5rem;
+    gap: 3rem;
+  }
+}

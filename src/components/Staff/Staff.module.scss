@@ -1,0 +1,35 @@
+.staff {
+  margin-top: 12rem;
+  padding-bottom: 16rem;
+  @media (max-width: 768px) {
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  @media (max-width: 576px) {
+    margin-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  h2 {
+    span {
+      display: inline;
+      @media (max-width: 576px) {
+        display: block;
+      }
+    }
+  }
+}
+
+.cards {
+  display: flex;
+  gap: 3rem;
+  margin-top: 8rem;
+  @media (max-width: 768px) {
+    margin-top: 6rem;
+    flex-direction: column;
+    gap: 6rem;
+    align-items: center;
+  }
+  @media (max-width: 576px) {
+    margin-top: 3.5rem;
+  }
+}

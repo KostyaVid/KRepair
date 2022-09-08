@@ -1,0 +1,9 @@
+.title {
+  margin-bottom: 6rem;
+  @media (max-width: 576px) {
+    margin-bottom: 4rem;
+  }
+}
+span.titleSpan {
+  display: inline;
+}

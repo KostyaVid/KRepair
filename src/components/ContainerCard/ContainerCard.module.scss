@@ -1,0 +1,12 @@
+.containerCard {
+  background-color: #fff;
+  padding: 5rem 14.6rem 3.4rem 6.7rem;
+  border-radius: 2rem;
+  @media (max-width: 768px) {
+    padding: 4rem 4rem 6rem 4rem;
+    border-radius: 1.5rem;
+  }
+  @media (max-width: 576px) {
+    padding: 3rem 2.4rem 4.4rem 2.4rem;
+  }
+}

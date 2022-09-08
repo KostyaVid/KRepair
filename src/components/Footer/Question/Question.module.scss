@@ -1,0 +1,106 @@
+.question {
+  background-color: #525252;
+}
+
+.container {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  @media (max-width: 768px) {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  @media (max-width: 576px) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.header {
+  display: flex;
+  @media (max-width: 576px) {
+    max-width: 28.4rem;
+    flex-direction: column;
+  }
+}
+
+.title {
+  color: #f7f5f5;
+}
+
+.description {
+  margin-left: 13.3rem;
+  max-width: 31.8rem;
+  color: #f7f5f5;
+  @media (max-width: 768px) {
+    margin-left: 6.1rem;
+  }
+  @media (max-width: 576px) {
+    margin-left: 0;
+    margin-top: 2.5rem;
+  }
+}
+
+.form {
+  margin-top: 6rem;
+  background-color: #f7f5f5;
+  border-radius: 2rem;
+  padding: 8rem 9.5rem;
+  @media (max-width: 768px) {
+    border-radius: 1.5rem;
+    padding: 6rem 4.8rem;
+  }
+  @media (max-width: 576px) {
+    margin-top: 3.5rem;
+    padding: 3.5rem 2.5rem;
+  }
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
+}
+
+.mainInputs {
+  width: 48.5%;
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+  input + input {
+    margin-top: 2rem;
+    @media (max-width: 576px) {
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+.inputProblem {
+  width: 48.5%;
+  @media (max-width: 576px) {
+    width: 100%;
+    margin-top: 1.5rem;
+    height: 19.8rem;
+  }
+}
+
+.button {
+  display: block;
+  margin: 4rem auto 0 auto;
+  @media (max-width: 576px) {
+    margin-top: 3rem;
+    width: 100%;
+  }
+}
+
+.warning {
+  margin: 1.7rem auto 0 auto;
+  width: 22rem;
+  font-size: 1rem;
+  font-weight: 600;
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+.button {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1em 1.5em;
+  border-radius: 1rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+.red {
+  background-color: #f03957;
+  border: 2px #f03957 solid;
+  &:hover {
+    background-color: #fff;
+    color: #f03957;
+  }
+}
+
+.fill {
+  background-color: #fff;
+  color: #000;
+  border: 2px #000 solid;
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+.clear {
+  color: #6f7375;
+  background-color: inherit;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px #6f7375 solid;
+}
+.price {
+  color: #6f7375;
+  background-color: inherit;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}

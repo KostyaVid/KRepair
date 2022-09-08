@@ -1,0 +1,87 @@
+.reviewCard {
+  background-color: #f7f5f5;
+  padding: 2.3rem 3rem 3rem;
+  border-radius: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  grid-template-rows: auto 1fr auto;
+  row-gap: 2rem;
+  width: 36.7rem;
+  grid-template-areas:
+    'n d d i'
+    't t t t'
+    'b b s s';
+  @media (max-width: 768px) {
+    border-radius: 1.2rem;
+    padding: 1.5rem 1rem 4rem 1.5rem;
+    width: 22.9rem;
+
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr auto auto;
+    grid-template-areas:
+      'i i '
+      'n d '
+      't t '
+      'b b '
+      's s ';
+  }
+  @media (max-width: 576px) {
+    width: 100%;
+    padding: 2rem 2rem 5rem 2.5rem;
+  }
+}
+
+.name {
+  grid-area: n;
+  font-weight: 700;
+  font-size: 1.8rem;
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
+  }
+}
+.date {
+  grid-area: d;
+  color: #6f7375;
+  border-bottom: 1px #6f7375 solid;
+  display: inline-block;
+  font-size: 1.6rem;
+  height: max-content;
+  width: max-content;
+  justify-self: end;
+  margin-right: 1rem;
+  @media (max-width: 768px) {
+    font-size: 1.1rem;
+  }
+}
+
+.text {
+  grid-area: t;
+  font-size: 1.6rem;
+  @media (max-width: 768px) {
+    font-size: 1.4em;
+  }
+}
+
+.img {
+  grid-area: i;
+  width: 3.6rem;
+  height: 3.6rem;
+  @media (max-width: 768px) {
+    width: 2.4rem;
+    height: 2.4rem;
+    justify-self: end;
+  }
+}
+
+.stars {
+  grid-area: s;
+  svg + svg {
+    margin-left: 0.3rem;
+  }
+}
+.button {
+  grid-area: b;
+  font-size: 1.4rem;
+  display: inline-block;
+  width: max-content;
+}

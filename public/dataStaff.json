@@ -1,0 +1,23 @@
+[
+   {
+      "id":"0",
+      "name":"Алексей Байда",
+      "job":"сервис менеджер",
+      "description":"отвечает за ваши положительные эмоции от работы с нами",
+      "urlImgWithoutExtension":"./images/staff/staff1"
+   },
+   {
+      "id":"1",
+      "name":"Аркадий Новак",
+      "job":"инженер",
+      "description":"отвечает за качество и своевременность, оказываемых услуг",
+      "urlImgWithoutExtension":"./images/staff/staff2"
+   },
+   {
+      "id":"2",
+      "name":"Евгений Большаков",
+      "job":"инженер",
+      "description":"отвечает за качество и своевременность, оказываемых услуг",
+      "urlImgWithoutExtension":"./images/staff/staff3"
+   }
+]

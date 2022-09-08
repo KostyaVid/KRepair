@@ -1,0 +1,52 @@
+.map {
+  position: relative;
+}
+
+.cardWrap {
+  position: absolute;
+  top: 12rem;
+  left: 50%;
+  transform: translateX(-120%);
+  background-color: #525252;
+  padding: 5rem;
+  border-radius: 1.5rem;
+  color: #efefef;
+  font-size: 1.6rem;
+  z-index: 2;
+  p {
+    margin-top: 2.5rem;
+    @media (max-width: 576px) {
+      margin-top: 2rem;
+    }
+  }
+  @media (max-width: 768px) {
+    top: 10rem;
+    left: 2rem;
+    transform: translateX(0);
+    padding: 4.6rem 3rem 4.6rem 4.6rem;
+  }
+  @media (max-width: 576px) {
+    position: static;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 5rem 3.5rem;
+  }
+}
+
+.imgMapLogo {
+  width: 15rem;
+}
+
+.phone {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.props {
+  font-weight: 700;
+  font-size: 1.8rem;
+  border-bottom: 2px #efefef solid;
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
+  }
+}

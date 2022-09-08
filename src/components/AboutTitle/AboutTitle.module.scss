@@ -1,0 +1,74 @@
+.address {
+  padding-top: 4.5rem;
+  color: #a5a4a4;
+}
+
+.titleContent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+  @media (max-width: 768px) {
+    margin-top: 8rem;
+  }
+  @media (max-width: 576px) {
+    margin-top: 6rem;
+  }
+
+  h1 {
+    flex-shrink: 0;
+    @media (max-width: 768px) {
+      font-size: 3.5rem;
+    }
+    @media (max-width: 576px) {
+      font-size: 3rem;
+    }
+  }
+  p {
+    width: 48%;
+    font-weight: 600;
+    @media (max-width: 768px) {
+      width: 50%;
+    }
+    @media (max-width: 576px) {
+      margin-top: 3rem;
+      width: 100%;
+    }
+  }
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
+}
+
+.card {
+  margin-top: 6rem;
+  background-color: #f7f5f5;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3.8rem;
+  padding-right: 3rem;
+  p:first-child {
+    width: 39rem;
+    @media (max-width: 768px) {
+      width: 27rem;
+    }
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+  p:last-child {
+    width: 48%;
+    @media (max-width: 768px) {
+      width: 51%;
+    }
+    @media (max-width: 576px) {
+      margin-top: 2.5rem;
+      width: 100%;
+    }
+  }
+  @media (max-width: 576px) {
+    margin-top: 4rem;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
