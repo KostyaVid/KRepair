@@ -1,4 +1,7 @@
-Technologies used:
+## About
+Creating a services website based on the Figma layout
+
+### Technologies used:
 
 1. React
 2. React-router
